@@ -19,7 +19,7 @@ const Home = () => {
       <Main/>
       <Facts/>
       <Todo/>
-      <News/>
+      {/* <News/> */}
       <Neck/>
       <Testlar/>
       <Foot/>
