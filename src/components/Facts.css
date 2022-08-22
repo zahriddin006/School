@@ -1,0 +1,8 @@
+.team{
+  padding-top: 50px;
+  width: 100%;
+}
+.rounded-bff{
+  border-radius: 14px;
+  border-bottom-right-radius: 50%;
+}
