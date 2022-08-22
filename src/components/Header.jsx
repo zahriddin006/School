@@ -42,7 +42,7 @@ const Header = () => {
               <li className="nav-item">
                 <div className="dropdown">
                   <button
-                    className="btn border-0 p-0 mt-lg-2 text-secondary dropdown-toggle nav-link"
+                    className="btn border-0 p-0 mt-lg-2 text-secondary dropdown-toggle"
                     type="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"

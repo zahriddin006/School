@@ -15,9 +15,6 @@
   color: #fff;
   line-height: 17px;
 }
-.nav-link:hover{
-  color: rgb(255, 108, 97) !important;
-}
 
 @media only screen and (min-width: 220px) {
   .war-text{

@@ -67,9 +67,9 @@ const Foot = () => {
               </ul>
             </div>
 
-            <div className="maps-block col-12 col-md-6 col-lg-3 pt-5">
-              <h2 className="text-light fs-5">Xaritadan Ko'rinishi</h2>
-            <iframe className="border-0 pb-5" src={gmap} width="300" height="320" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div className="maps-block col-12 col-md-6 col-lg-3 pt-5 m-0 px-0 text-center">
+              <h2 className="text-light fs-5 m-0 px-0">Xaritadan Ko'rinishi</h2>
+            <iframe className="border-0 pb-5 m-0 px-0" src={gmap} width="300" height="320" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
           </div>
