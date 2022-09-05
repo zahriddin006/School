@@ -5,6 +5,12 @@
 body {
 	background: #f1fbff;
 }
+.back-btn{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 999;
+}
 .bottom-line{
 	display: inline-block;
 	width: 40%;

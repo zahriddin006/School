@@ -61,14 +61,9 @@ const Header = () => {
                       </NavLink>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
-                        O'qtuvchilar
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
+                      <NavLink className="dropdown-item" to="/qoidalar">
                         Maktab qoidalari
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>

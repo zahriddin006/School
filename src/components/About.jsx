@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   const about = "https://97-maktab.uz/wp-content/uploads/2021/10/photo_2021-10-06_15-33-29.jpg"
@@ -20,9 +21,11 @@ const About = () => {
                 <p>
                 Toshkent viloyati Bekobod tumani xalq ta’limi bo‘limiga qarashli 26-umumta’lim maktabi / 26-я общеобразовательная школа отдела народного образования Бекабадского района Ташкентской области
                 </p>
+                <NavLink to="/about">
                 <a className="btn btn-warning" href="#">
                   Batafsil / учить больше
                 </a>
+                </NavLink>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Hero.css'
 
 const Hero = () => {
@@ -13,7 +14,9 @@ const Hero = () => {
             <p className="text-light text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsa illum asperiores sunt. Doloribus, nesciunt, sint et corrupti eaque facere necessitatibus, id provident laboriosam enim cumque?
             </p>
-            <button className='butn shadow'>batafsil / учить больше</button>
+            <NavLink to="/about">
+              <button className='butn shadow'>batafsil / учить больше</button>
+            </NavLink>
           </div>
         </div>
       </section>

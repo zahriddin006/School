@@ -1,91 +1,57 @@
-import React, { useEffect } from "react";
-import "./swiper/swiper-bundle.min.css";
-import "./swiper/swiper-bundle.min.js";
-import "./swiper/style.css";
-import img1 from "../assets/images/img1.jpg";
-import img2 from "../assets/images/img2.jpg";
-import img3 from "../assets/images/img3.jpg";
+import React from "react";
+import "./News.css";
 
 const News = () => {
-  
-  useEffect(() => {
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      grabCursor: true,
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  }, []);
+  let sliderItem = document.querySelectorAll(".slider-item");
 
   return (
     <>
-      <div className="News" id="News">
-        <div className="container-lg text-center">
-          <h2>Eng so'nggi yangiliklar / Последние новости</h2>
-          <span className="bottom-line"></span>
-        </div>
-        <section class="container-handle">
-          <div class="testimonial mySwiper">
-            <div class="testi-content swiper-wrapper">
-              <div class="slide swiper-slide">
-                <img src={img1} alt="" class="image" />
-                <h2 className="text-center">Yangilik 1</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aperiam, saepe provident dolorem a quaerat quo error facere
-                  nihil deleniti eligendi ipsum adipisci, fugit, architecto amet
-                  asperiores doloremque deserunt eum nemo.
-                </p>
-                <i class="bx bxs-quote-alt-left quote-icon"></i>
-                <div class="details">
-                  <span class="name">
-                    <span className="job">Date: </span> 20-06-2022
-                  </span>
-                </div>
-              </div>
-              <div class="slide swiper-slide">
-                <img src={img2} alt="" class="image" />
-                <h2 className="text-center">Yangilik 2</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aperiam, saepe provident dolorem a quaerat quo error facere
-                  nihil deleniti eligendi ipsum adipisci, fugit, architecto amet
-                  asperiores doloremque deserunt eum nemo.
-                </p>
-                <i class="bx bxs-quote-alt-left quote-icon"></i>
-                <div class="details">
-                  <span class="name">Marnie Lotter</span>
-                  <span class="job">Web Developer</span>
-                </div>
-              </div>
-              <div class="slide swiper-slide">
-                <img src={img3} alt="" class="image" />
-                <h2 className="text-center">Yangilik 3</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aperiam, saepe provident dolorem a quaerat quo error facere
-                  nihil deleniti eligendi ipsum adipisci, fugit, architecto amet
-                  asperiores doloremque deserunt eum nemo.
-                </p>
-                <i class="bx bxs-quote-alt-left quote-icon"></i>
-                <div class="details">
-                  <span class="name">Marnie Lotter</span>
-                  <span class="job">Web Developer</span>
-                </div>
-              </div>
+      <div className="slider pt-5" id="News">
+        <h2 className="text-center mt-3">Slider</h2>
+        <div className="container">
+          <div className="slider-wrapper">
+            <div className="slider-item bg-primary">
+              <h2>Item 1</h2>
             </div>
-            <div class="swiper-button-next nav-btn"></div>
-            <div class="swiper-button-prev nav-btn"></div>
-            <div class="swiper-pagination"></div>
+            <div className="slider-item bg-primary">
+              <h2>Item 2</h2>
+            </div>
+            <div className="slider-item bg-primary">
+              <h2>Item 3</h2>
+            </div>
+            <div className="slider-item bg-primary">
+              <h2>Item 4</h2>
+            </div>
+            <div className="slider-item bg-primary">
+              <h2>Item 5</h2>
+            </div>
+            <div className="slider-item bg-primary">
+              <h2>Item 6</h2>
+            </div>
+            <div className="slider-item bg-primary">
+              <h2>Item 7</h2>
+            </div>
+            <div className="slider-item bg-primary">
+              <h2>Item 8</h2>
+            </div>
+            <div className="slider-item bg-primary">
+              <h2>Item 9</h2>
+            </div>
+            <div className="slider-item bg-primary">
+              <h2>Item 10</h2>
+            </div>
+            <div className="slider-item bg-primary">
+              <h2>Item 11</h2>
+            </div>
+            <div className="slider-item bg-primary">
+              <h2>Item 12</h2>
+            </div>
           </div>
-        </section>
+          <div className="text-center mt-3">
+            <button className="leftBtn me-3"> prev </button>
+            <button className="rightBtn ms-3"> next </button>
+          </div>
+        </div>
       </div>
     </>
   );

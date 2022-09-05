@@ -4,11 +4,11 @@ import Facts from '../components/Facts';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Main from '../components/Main';
-import News from '../components/News';
 import Todo from '../components/Todo';
 import Neck from '../components/Neck';
 import Testlar from '../components/Testlar';
 import Foot from '../components/Foot';
+import News from '../components/News';
 
 const Home = () => {
   return (
@@ -19,8 +19,8 @@ const Home = () => {
       <Main/>
       <Facts/>
       <Todo/>
-      {/* <News/> */}
       <Neck/>
+      <News/>
       <Testlar/>
       <Foot/>
     </>
