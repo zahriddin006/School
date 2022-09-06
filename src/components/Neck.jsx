@@ -1,5 +1,5 @@
 import React from "react";
-import "./Facts.css";
+import "./facts/Facts.css";
 
 const neck = () => {
   const check =

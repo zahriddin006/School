@@ -1,6 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
-import './Facts.css'
+import './Facts.css';
 
 const Facts = () => {
   return (
