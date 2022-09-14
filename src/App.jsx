@@ -7,11 +7,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import SchoolAbout from "./pages/SchoolAbout";
 import SchoolMis from "./pages/SchoolMis";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
   function componentDidMount() {
     window.scrollTo(0, 0);
   }
+
+  useEffect(() => {
+  AOS.init();
+  }, []);
 
   return (
     <>

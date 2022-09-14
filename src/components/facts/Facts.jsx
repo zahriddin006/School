@@ -5,7 +5,7 @@ import './Facts.css';
 const Facts = () => {
   return (
     <>
-      <section className="team" id="facts">
+      <section className="team" id="facts" data-aos="zoom-in">
         <div className="container">
           <div className="row mt-5">
             <div className="col-md-12">
@@ -23,7 +23,7 @@ const Facts = () => {
               <div className="card text-center">
                 <div className="card-body">
                   <h3 className="card-title py-2">
-                    <CountUp end={20}/>
+                    <CountUp start={0} end={20} duration={2}/>
                   </h3>
                   <p className="card-text">O'qtuvchilar soni</p>
                 </div>

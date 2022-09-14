@@ -26,8 +26,8 @@ const neck = () => {
               <div class="card text-white text-center bg-dark pb-2 rounded-bff">
                 <div class="card-body">
                   <img src={check} alt="img" width={100} height={100} />
-                  <h3 class="card-title mt-3">Yagona interaktiv davlat xizmatlari portali</h3>
-                  <button class="btn bg-light text-dark">Saytga o'tish</button>
+                  <h3 class="card-title mt-3 fs-4">Yagona interaktiv davlat xizmatlari portali</h3>
+                  <a href="https://my.gov.uz/oz" target="_blank" class="btn bg-light text-dark">Saytga o'tish</a>
                 </div>
               </div>
             </div>
@@ -36,7 +36,7 @@ const neck = () => {
                 <div class="card-body">
                   <img src={gerb} alt="img" width={100} height={100} />
                   <h3 class="card-title mt-3 fs-4">O‘zbekiston Respublikasi Prezidentining rasmiy sayti</h3>
-                  <button class="btn bg-light text-dark">Saytga o'tish</button>
+                  <a href="https://president.uz/oz" target="_blank"  class="btn bg-light text-dark">Saytga o'tish</a>
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ const neck = () => {
                 <div class="card-body">
                   <img className="rounded-circle" src={talim} alt="img" width={100} height={100} />
                   <h3 class="card-title mt-3 fs-4">O`zbekiston Respublikasi Xalq ta`lim vazirligi  rasmiy sayti</h3>
-                  <button class="btn bg-light text-dark">Saytga o'tish</button>
+                  <a href="https://www.uzedu.uz/y3" target="_blank"  class="btn bg-light text-dark">Saytga o'tish</a>
                 </div>
               </div>
             </div>

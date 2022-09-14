@@ -68,7 +68,7 @@ const Todo = () => {
               placeholder="masssage..."
               autoComplete="off"
             ></textarea>
-            <button className="btn btn-primary my-3" type="submit">Jo'atish / Отправлять</button>
+            <button className="btn btn-primary mt-3" type="submit">Jo'atish / Отправлять</button>
           </form>
         </div>
       </div>

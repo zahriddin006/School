@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Main.css"
 
 const Main = () => {
@@ -29,7 +30,8 @@ const Main = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci eligendi modi temporibus alias iste. Accusantium?
                   </p>
-                  <button class="btn bg-warning text-dark">Learn More</button>
+                  <Link  to="/"  class="btn bg-warning text-dark">
+                  Batafsil / учить больше</Link>
                 </div>
               </div>
             </div>
@@ -44,7 +46,8 @@ const Main = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci eligendi modi temporibus alias iste. Accusantium?
                   </p>
-                  <button class="btn bg-warning text-dark">learn More</button>
+                  <Link  to="/active-students"  class="btn bg-warning text-dark">
+                  Batafsil / учить больше</Link>
                 </div>
               </div>
             </div>
@@ -59,7 +62,8 @@ const Main = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci eligendi modi temporibus alias iste. Accusantium?
                   </p>
-                  <button class="btn bg-warning text-dark">Learn More</button>
+                  <Link  to="/sport"  class="btn bg-warning text-dark">
+                  Batafsil / учить больше</Link>
                 </div>
               </div>
             </div>
@@ -74,7 +78,8 @@ const Main = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci eligendi modi temporibus alias iste. Accusantium?
                   </p>
-                  <button class="btn bg-warning text-dark">Learn More</button>
+                  <Link  to="/jadval"  class="btn bg-warning text-dark">
+                  Batafsil / учить больше</Link>
                 </div>
               </div>
             </div>
@@ -89,7 +94,9 @@ const Main = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Adipisci eligendi modi temporibus alias iste. Accusantium?
                   </p>
-                  <button class="btn bg-warning text-dark">Learn More</button>
+                  <a className="btn btn-warning" href="https://kundalik.com/">
+                  Batafsil / учить больше
+                </a>
                 </div>
               </div>
             </div>
