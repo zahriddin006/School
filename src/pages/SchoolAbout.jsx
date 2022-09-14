@@ -13,7 +13,7 @@ import img8 from "../assets/shoolImage/img8.png";
 const SchoolAbout = () => {
   let imgArr = [img1, img2, img3, img4, img5, img6, img7, img8];
 
-  const [selectedimg, setSelectedimg] = useState(imgArr[6]);
+  const [selectedimg, setSelectedimg] = useState(imgArr[0]);
   const gmap = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.2785846559977!2d69.29213531564646!3d40.30414447040255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b1bf7d8934797d%3A0x7afb294ff0559ab1!2s26-Orta%20Maktab!5e1!3m2!1sru!2s!4v1661000444792!5m2!1sru!2s`;
 
   return (

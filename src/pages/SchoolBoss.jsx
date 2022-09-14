@@ -6,7 +6,6 @@ const SchoolBoss = () => {
   let img1 = "https://97-maktab.uz/wp-content/uploads/2021/09/images.png";
 
   let teachers = data;
-
   return (
     <>
       <NavLink className="back-btn" to="/">
